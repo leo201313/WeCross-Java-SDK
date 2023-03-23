@@ -26,7 +26,6 @@ public class TransactionalAopHandler {
     private final Logger logger = LoggerFactory.getLogger(TransactionalAopHandler.class);
     @Resource private WeCrossRPC weCrossRPC;
     private Class<? extends Throwable>[] es;
-
     private String xaTransactionID;
     private String[] paths;
 

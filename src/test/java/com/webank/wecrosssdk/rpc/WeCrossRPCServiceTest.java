@@ -36,4 +36,5 @@ public class WeCrossRPCServiceTest {
             Assert.assertNotNull(e);
         }
     }
+
 }
